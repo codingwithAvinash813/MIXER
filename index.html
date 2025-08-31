@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avi's Social Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 320px;
+    }
+    .card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 15px;
+      border-radius: 15px;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 28px;
+      height: 28px;
+    }
+    /* Colors */
+    .youtube { background: #FF0000; }
+    .github { background: #000000; }
+    .book { background: #FFD700; color: black; }
+    .blog { background: #FF6600; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- YouTube -->
+    <a href="https://www.youtube.com/@ihlak1" target="_blank" class="card youtube">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="YouTube">
+      YouTube
+    </a>
+    
+    <!-- GitHub -->
+    <a href="https://github.com/codingwithAvinash813" target="_blank" class="card github">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+      GitHub
+    </a>
+    
+    <!-- Book -->
+    <a href="https://drive.google.com/file/d/1AKYpibPaxAQiGP0dQ2vRvidwMWDC7PR6/view?usp=drivesdk" target="_blank" class="card book">
+      📖 LOVE HIM WHO LOVES YOU
+    </a>
+    
+    <!-- Blog -->
+    <a href="https://www.blogger.com/profile/10879952982280453406" target="_blank" class="card blog">
+      📝 My Blog
+    </a>
+  </div>
+</body>
+</html>
